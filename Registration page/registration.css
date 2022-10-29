@@ -1,0 +1,29 @@
+/* styling my html registration page */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.postimg.cc/Hkv4CQgt/images-1-7.jpg) 
+}
+#form{
+    margin: auto;
+    height: 500px;
+    padding: 20px;
+    width: 100%;
+    border: light rgba(235, 150, 100, 1);
+    background-color: rgba(44, 189, 141,0.3);
+    color: #f00f4f;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+}
+/* stying my div and inputs */
+.input{
+    padding: 5px;
+    width: 100%;
+}
+#button{
+    text-align: center;
+}

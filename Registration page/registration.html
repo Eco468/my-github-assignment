@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <main>
+      <form action="login page.html" id="form">
+        <h1>REGISTRATION PAGE</h1>
+        <div class="detail">
+          <label for="fname">First name</label>
+          <input type="text" class="input" placeholder="first name" required/>
+        </div>
+        <div>
+          <label for="lname">Last name</label>
+          <input type="text" class="input" placeholder="last name" required/>
+        </div>
+        <div>
+          <label for="phone">Phone number</label>
+          <input type="number" class="input" placeholder="phone number" required/>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" class="input" placeholder="email address" required/>
+        </div>
+        <div>
+          <label for="gender">Gender</label><br />
+          <select type="gender" name="gender" id="gender" required>
+            <option value="" disabled selected hidden>
+              select your gender
+            </option>
+            <option value="male">Male</option>
+            <option value="Female">female</option>
+          </select>
+        </div>
+        <div>
+          <label for="date">Date of birth</label><br />
+          <input type="date" required/>
+        </div>
+        <div>
+          <label for="color">Favourite color</label><br />
+          <input type="color" name="color" id="color" class="color" required/>
+        </div id="button">
+        <div>
+          <button>Register</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
