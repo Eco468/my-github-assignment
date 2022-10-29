@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+      /* margin: auto; */
+    background-color: hsl(0 0% 95%);
+    height: 100%;
+  }
+  main {
+      font-family: "Lexend Deca", "PingFang SC", "Microsoft Yahei", -apple-system,
+      blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto,
+      "miui", "Hiragino Sans GB", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      height: 200px;
+      width: 150px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 785px;
+    margin-top: 10%;
+    align-items: center;
+  }
+  #row1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 25px;
+    /* text-align: center; */
+    height: 400px;
+  }
+  #row1 h3 p {
+    text-align: center;
+  }
+  
+  #row2 {
+    background-color: hsl(185 98% 23%);
+    padding: 25px;
+    height: 400px;
+  }
+  
+  #row3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 25px;
+    height: 400px;
+  }
+  main h3, p{
+  color: hsl(0 0% 95%);
+  /* height: 100px; */
+  }
+  
+  .button{
+      margin-top: 30px;
+      padding: 10px;
+      background-color:hsl(179, 100%, 13%);
+      border-radius: 30px;
+  }
+  
+  
